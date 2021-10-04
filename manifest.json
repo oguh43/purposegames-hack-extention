@@ -5,7 +5,7 @@
     "description": "Speedrun 100%",
     "content_scripts": [
       {
-        "matches": ["*://*.purposegames.com/*"],
+        "matches": ["*://*.purposegames.com/game/*"],
         "js": ["script.js"]
       }
     ]
