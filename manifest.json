@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Purposegames hack",
+    "version": "1.0",
+    "description": "Speedrun 100%",
+    "content_scripts": [
+      {
+        "matches": ["*://*.purposegames.com/*"],
+        "js": ["script.js"]
+      }
+    ]
+  }
